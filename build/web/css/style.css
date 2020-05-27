@@ -1,0 +1,127 @@
+body{
+    background-image: url(../images/wine.png);
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: Arial;
+    background-color: #d5f46b;
+    background-attachment: fixed;
+}
+.container{
+    width: 980px;
+    margin: auto;
+    box-shadow: 0 0 24px;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+    background-color: white;
+}
+
+.content{
+    width: 940px;
+    display: flex;
+    height: auto;
+    margin: auto;
+}
+.left{
+    width: 700px;
+    height: auto;
+    border-bottom: 1px solid lightgrey;
+}
+.image_top{
+    margin-top: 37px;
+    width: 700px;
+    height: auto;
+    border-bottom: 3px dotted lightgrey;
+}
+.image_child{
+    height: 400px;
+    background-image: url(../images/sushi0.jpg);
+    width: 700px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.list_product{
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    /*    inline block de cho do cao cua the
+        div bang voi do cao maximum cua noi dung
+    */
+    font-size: 17px;
+    padding-bottom: 30px;
+    border-bottom: 3px dotted lightgrey;
+}
+.product_title{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product_image img{
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sushi{
+    width: 100%;
+    height: auto;
+}
+.sushi_title{
+    font-size: 28px;
+    font-family: Times New Roman;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.sushi_detail{
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    text-align: justify;
+}
+.sushi_image img{
+    float: right;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.sushi_price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+.paging{
+    height: 40px;
+    padding-left: 300px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.paging input{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: #666666;
+    text-decoration: none;
+    border: 0.5px #999999 solid;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    margin: 0px 2px 0px 2px;
+}
+.active{
+    color: red !important;
+}
+
+
+
